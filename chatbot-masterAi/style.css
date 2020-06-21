@@ -1,0 +1,70 @@
+body { 
+	color: #421; 
+	font-weight: bold; 
+	font-size: 18px; 
+	background-color:white;
+	font-family: "Courier New"; 
+	background-color:white;
+	background-image: url("sedef.jpeg");
+	background-repeat: no-repeat;
+	background-size: 500px 600px;
+	
+	top: 0;
+	left: 100px;
+	bottom: 0;
+	right: 50px;
+	position: absolute;
+}
+/*
+body::after {
+	content: "";
+	background-color:white;
+	background-image: url("sedef.jpeg");
+	background-repeat: no-repeat;
+	background-size: 500px 600px;
+	
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 50px;
+	position: absolute;
+  }*/
+span { 
+	color: rgb(36, 17, 119); 
+} 
+::-webkit-input-placeholder { 
+	color: #711 
+}
+.button {
+  background-color: #0b3d91; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+#main { 
+	position: fixed; 
+	top: 15%; 
+	right: 200px; 
+	width: 400px; 
+	border: 0px solid #421; 
+	padding: 60px; 
+}
+#main div { 
+	margin: 10px; 
+} 
+#input { 
+	border: 0; 
+	padding: 5px; 
+	border: 1px solid #421; 
+}
